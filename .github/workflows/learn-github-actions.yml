@@ -1,8 +1,9 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  abrakadabra:
     runs-on: ubuntu-20.04
     steps:
       - run: ls
+      - run: pwd
 
